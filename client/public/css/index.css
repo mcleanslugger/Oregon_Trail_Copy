@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.titleimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h3 {
+  font-family: "Chalkduster", fantasy, serif;
+  text-align: center;
+  -webkit-animation: fadeInOut 3s infinite;
+}
+
+@keyframes fadeInOut {
+  0% {opacity: 1;}
+  50% {opacity: 0.005;}
+  100% {opacity: 1;}
+}
